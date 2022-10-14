@@ -13078,7 +13078,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Analysis-of-Chess-Game-Openings">Analysis of Chess Game Openings<a class="anchor-link" href="#Analysis-of-Chess-Game-Openings">&#182;</a></h1><p>Austin Nguyen and Elena Yang</p>
-<p><a href="https://elenajy.github.io/datascience/index.html">Link to our Github Page</a></p>
+<p><a href="https://elenajy.github.io/datascience/milestone_1.html">Link to our Github Page</a></p>
 
 </div>
 </div>
@@ -13118,7 +13118,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;black_rating&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">+</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;white_rating&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span><span class="o">/</span><span class="mi">2</span>
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;black_rating&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">+</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;white_rating&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span><span class="o">/</span><span class="mi">2</span> <span class="c1">#Finding the average rating by taking the mean of both the white and black rating columns and then averaging those columns</span>
 </pre></div>
 
     </div>
@@ -13584,7 +13584,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;white&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span>
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;white&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span> <span class="c1">#Finding the % of games won by white</span>
 </pre></div>
 
     </div>
@@ -13618,7 +13618,7 @@ Name: winner, dtype: float64</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;black&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span>
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;black&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span> <span class="c1">#Finding the % of games won by black</span>
 </pre></div>
 
     </div>
@@ -13652,7 +13652,7 @@ Name: winner, dtype: float64</pre>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;draw&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span>
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span> <span class="o">==</span> <span class="s2">&quot;draw&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">winner</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span><span class="o">/</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">winner</span><span class="p">))</span> <span class="c1">#Finding the % of draws</span>
 </pre></div>
 
     </div>
@@ -13744,7 +13744,7 @@ Name: increment_code, Length: 400, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Finally, we previously mentioned that we want to make sure that this dataset has a variety of players, and not just one or two players dominating the types of openings reflected in this dataset. To do so, we will isolate the white_id and black_id columns and merge the two, eliminating duplicates.</p>
+<p>Finally, we previously mentioned that we want to make sure that this dataset has a variety of players, and not just one or two players dominating the types of openings reflected in this dataset. Before we change anything in order to reflect a unique set of players, we will first look and find the amount of players that are in the data.</p>
 
 </div>
 </div>
@@ -13786,7 +13786,7 @@ Name: increment_code, Length: 400, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There are 15635 unique players. This is a fair observation as some players may play as either white or black.</p>
+<p>With there being 15635 players being unique, this shows that a portion of the games in the dataset are played by duplicate players. While it is important to look at the opening data from unique players, it would also be interesting to look at the different openings that a single player plays, which we could find using this dataset.</p>
 
 </div>
 </div>
@@ -13836,6 +13836,52 @@ opening_eco       object
 opening_name      object
 opening_ply        int64
 dtype: object</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">milestone_1</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[NbConvertApp] Converting notebook /content/milestone_1.ipynb to html
+[NbConvertApp] Writing 305923 bytes to /content/milestone_1.html
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[12]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre></pre>
 </div>
 
 </div>
